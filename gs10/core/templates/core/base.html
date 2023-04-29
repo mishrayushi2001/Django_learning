@@ -12,13 +12,7 @@
         {% endblock corecss %}
     </head>
     <body>
-        <nav>
-            <ul>
-                <li>Home</li> 
-                <li>About</li> 
-                <li>Django Course</li> 
-            </ul>
-        </nav>
+        {% include 'core/navbar.html' %}
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-secondary">Secondary</button>
         <i class="fa-solid fa-tree"></i>

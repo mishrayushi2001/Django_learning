@@ -2,6 +2,7 @@
 {% block title %}{{block.super}}Home{% endblock title %}
 
 {% block content %}
-<h2> I am New HomePage</h2>
+<h2> I am New HomePage{{d}}</h2>
+{% include 'core/topcourse.html' with p='PHP' only %}
 {% endblock content %}
  
