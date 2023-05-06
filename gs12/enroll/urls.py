@@ -1,6 +1,6 @@
 from django.urls import path
 from .import views
 
-yrlspatterns =[
+urlpatterns =[
     path('stu/',views.studentinfo),
 ]
