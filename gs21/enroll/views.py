@@ -14,7 +14,7 @@ def showformdata(request):
             # print('Comment:',fm.cleaned_data['comment'])
             print('Email:',fm.cleaned_data['email'])
             # print('Website:',fm.cleaned_data['website'])
-            print('Password:',fm.cleaned_data['password'])
+            # print('Password:',fm.cleaned_data['password'])
             # print('Description:',fm.cleaned_data['description'])
             # print('Feedback:',fm.cleaned_data['feedback'])
             # print('Notes:',fm.cleaned_data['notes'])
